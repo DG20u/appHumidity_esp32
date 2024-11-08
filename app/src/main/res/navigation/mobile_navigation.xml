@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_bonded">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.temp.TemperatureFragment"
+        android:label="Temperature"
+        tools:layout="@layout/fragment_temperature" />
+    <fragment
+        android:id="@+id/nav_humidity"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.humedad.HumidityFragment"
+        android:label="Humidity"
+        tools:layout="@layout/fragment_humidity" />
+    <fragment
+        android:id="@+id/nav_bonded"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.bondeddevices.BondedDevicesFragment"
+        android:label="fragment_bonded_devices"
+        tools:layout="@layout/fragment_bonded_devices" />
+    <fragment
+        android:id="@+id/nav_th"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.temperaturehistory.TemperatureHistory"
+        android:label="fragment_temperature_history"
+        tools:layout="@layout/fragment_temperature_history" />
+    <fragment
+        android:id="@+id/nav_hh"
+        android:name="com.example.idgs_9a11_sd_24_a2p2_navdrawer.ui.humidityhistory.HumidityHistory"
+        android:label="fragment_humidity_history"
+        tools:layout="@layout/fragment_humidity_history" />
+</navigation>
